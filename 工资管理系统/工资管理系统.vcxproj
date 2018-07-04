@@ -115,6 +115,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Class.h" />
+    <ClInclude Include="FunDefinition .h" />
+    <ClInclude Include="Head.h" />
+    <ClInclude Include="Menu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddModule.cpp" />
+    <ClCompile Include="Class.cpp" />
+    <ClCompile Include="CreateData.cpp" />
+    <ClCompile Include="DeletModule_name.cpp" />
+    <ClCompile Include="DeletModule_num.cpp" />
+    <ClCompile Include="FileModule.cpp" />
+    <ClCompile Include="FindModule_Name.cpp" />
+    <ClCompile Include="FindModule_num.cpp" />
+    <ClCompile Include="Function.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="ModifyModule_name.cpp" />
+    <ClCompile Include="ModifyModule_num.cpp" />
+    <ClCompile Include="Print.cpp" />
+    <ClCompile Include="PrintModule.cpp" />
+    <ClCompile Include="SortModule.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
